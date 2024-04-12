@@ -1,0 +1,10 @@
+program test12;
+var
+    a:integer;
+function f(a:integer):integer;
+begin
+    f:=a*2;
+end;
+begin
+	writeln(f(1));
+end.

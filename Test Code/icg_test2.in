@@ -1,0 +1,10 @@
+program test;
+var a:integer;
+function f(a:integer):integer;
+begin
+	f:=a*a;
+end;
+begin
+	writeln(f(a));
+end.
+
